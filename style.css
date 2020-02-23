@@ -1,0 +1,19 @@
+#main-header img {
+    width: 100%;
+    height: 100%;
+}
+.icons{
+    width:30%;
+    height:200px;
+}
+.icons:hover{
+    opacity:0.8;
+    cursor:pointer;
+    }
+.inc{
+    width: 10%;
+    margin: 15px;
+}
+.btn{
+    margin:50px;
+}
