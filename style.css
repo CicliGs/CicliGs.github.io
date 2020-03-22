@@ -33,9 +33,12 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
   .mobile-flex {
     flex-direction: column;
+  }
+  .firstname{
+    text-align: left;
   }
     #main-header .port-item {
       width: 100%;
