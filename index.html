@@ -23,7 +23,7 @@
     <header id="main-header">
       <div class="row no-gutters">
         <div class="col-lg-4 col-md-5">
-          <img src="https://sun9-59.userapi.com/c853520/v853520993/15b951/-E1JFIoGxVc.jpg">
+          <img src="photoeditorsdk-export.jpg">
         </div>
         <div class="col-lg-8 col-md-7">
           <div class="d-flex flex-column">
@@ -50,21 +50,21 @@
             </div>
 
             <div>
-              <div>
-                <div class="d-flex flex-row text-white align-items-stretch text-center">
-                  <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#home">
-                    <i class="fa fa-home d-block"></i> Home
-                  </div>
-                  <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
-                    <i class="fa fa-graduation-cap d-block"></i> Resume
-                  </div>
-                  <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
-                    <i class="fa fa-folder-open d-block"></i> Work
-                  </div>
-                  <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
-                    <i class="fa fa-envelope d-block"></i> Contact
-                  </div>
-                </div>
+              <!-- <div class="d-flex flex-row text-white align-items-stretch text-center flex-xs-row"> -->
+              <div class="flex text-white mobile-flex">
+              <div class="port-item p-4 bg-primary d-inline-block" data-toggle="collapse" data-target="#home">
+              <i class="fa fa-home d-block"></i> Home
+              </div>
+              <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
+              <i class="fa fa-graduation-cap d-block"></i> Resume
+              </div>
+              <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
+              <i class="fa fa-folder-open d-block"></i> Work
+              </div>
+              <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
+              <i class="fa fa-envelope d-block"></i> Contact
+              </div>
+              </div>
               </div>
             </div>
           </div>
@@ -275,7 +275,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap..." integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"></script>
     <script>
-      console.log('test')
       $('.port-item').click(function () {
         $('.collapse').collapse('hide');
       });
